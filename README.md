@@ -1,129 +1,80 @@
-## EXPERIMENT NO. 2 – OCC AND LOAD CHARACTERISTICS OF D.C. SHUNT GENERATOR
+# Name:Tharshani M.I
+# Ref no:26012831
+# Date:16-11-2026
+# EXP-2
+EXPT NO: 2 OCC AND LOAD CHARACTERISTICS OF D.C SHUNT GENERATOR
 
-| **Name:** | | **Reg. No.:** | |
-|---|---|---|---|
-| **Date:** | | **Batch / Section:** | |
+Aim:
+To conduct load test on separately excited generators and to obtain the characteristics
 
----
+Apparatus Required:
 
-## AIM
+Sl .no	Apparatus	Range	Type	Quantity
+1	Volt meter	(0-300)V	MC	1
+2	Ammeter	(0-2.5)A	MC	1
+3	Ammeter	(0-5)A	MC	1
+4	Rheostat		Wire wouned	1
+5	Rheostat		Wire wouned	1
+6	Connecting wires	-	-	As required
 
-To conduct the open circuit and load test on a D.C. shunt generator and to obtain its open circuit (OCC) and load characteristics.
+Fuse rating calculation for field and armature:
 
-## APPARATUS REQUIRED
+No load test
 
-| S. No. | Apparatus | Range | Type | Quantity |
-|:---:|:---:|:---:|:---:|:---:|
-| 1 | Voltmeter | (0–300) V | MC | 1 |
-| 2 | Ammeter | (0–2.5) A | MC | 1 |
-| 3 | Ammeter | (0–5) A | MC | 1 |
-| 4 | Rheostat | — | Wire wound | 1 |
-| 5 | Rheostat | — | Wire wound | 1 |
-| 6 | Connecting wires | — | — | As required |
-| 7 | Virtual Lab (IIT Roorkee) | — | Online simulator | 1 |
+10 % of rated current (full load current)
 
-## FUSE RATING CALCULATION (FIELD AND ARMATURE)
+Load test
 
-- **No-load test:** 10 % of rated (full-load) current
-- **Load test:** 125 % of rated (full-load) current
+125 % of rated current (full load current)
 
-## PRECAUTIONS
+Precautions
 
-1. Motor-side field rheostat should be kept at minimum resistance position.
-2. Generator-side field rheostat should be kept at maximum resistance position.
-3. Starter should be in OFF position before switching on the supply.
-4. The DPST switch must be kept open.
+1.   Motor side field rheostat should be kept at minimum resistance position.
+2.   Generator side field rheostat should be kept at maximum resistance position.
+3.   Starter should be in off position before switching on the supply.
+4.   The DPST switch must be kept open.Procedure for open circuit test
+Procedure
+1.   Connections are given as per the circuit diagram.
+2.   The motor is started with the help of THREE POINT starter.
+3.   Adjust the motor speed to rated speed by adjusting motor field rheostat when the generator is disconnected from the load by DPST switch 2.
+4.   By  varying  the  generator  field  rheostat  gradually,  the  open  circuit  voltage  [Eo]  and corresponding field current (If) are tabulated up to 125 % of rated voltage of generator.
+5.   The motor is switched off by using DPST switch 1 after bringing all the rheostats to initial position.
 
-## PROCEDURE
+Procedure for Load test:
 
-### A. Open circuit test
+1.   Connections are given as per the circuit diagram
+2.   The prime mover is started with the help of three point starter and it is made to run at rated speed when the generator is disconnected from the load by DPST switch 2.
+3.   By varying the generator field rheostat gradually, the rated voltage [Eg] is obtained.
+4.   The ammeter and voltmeter readings are observed at no load condition.
+5.   The ammeter and voltmeter readings are observed for different loads up to the rated current by closing the DPST switch 2.
+6.   After tabulating all the readings the load is brought to its initial position.
+7.   The motor is switched off by using DPST switch 1 after bringing all the rheostats to initial position.
 
-1. Connections are given as per the circuit diagram.
-2. The motor is started with the help of the three-point starter.
-3. Adjust the motor speed to rated speed by adjusting the motor field rheostat, when the generator is disconnected from the load by DPST switch 2.
-4. By varying the generator field rheostat gradually, the open circuit voltage (Eo) and the corresponding field current (If) are tabulated up to 125 % of the rated voltage of the generator.
-5. The motor is switched off using DPST switch 1 after bringing all the rheostats to their initial positions.
+Tabulation for Open Circuit Test
+<img width="1600" height="941" alt="image" src="https://github.com/user-attachments/assets/883eb83f-4fe8-4dca-8ffa-72433d33bbab" />
 
-### B. Load test
+Tabulation for Load Test:
+<img width="1600" height="1164" alt="image" src="https://github.com/user-attachments/assets/ea0eeeba-33de-48ae-8a62-1864bd4f7d05" />
 
-1. Connections are given as per the circuit diagram.
-2. The prime mover is started with the help of the three-point starter and made to run at rated speed, when the generator is disconnected from the load by DPST switch 2.
-3. By varying the generator field rheostat gradually, the rated voltage (Eg) is obtained.
-4. The ammeter and voltmeter readings are observed at no-load condition.
-5. The ammeter and voltmeter readings are observed for different loads up to the rated current by closing DPST switch 2.
-6. After tabulating all the readings, the load is brought to its initial position.
-7. The motor is switched off using DPST switch 1 after bringing all the rheostats to their initial positions.
+Model graph:
+<img width="1600" height="1149" alt="image" src="https://github.com/user-attachments/assets/4880af21-28d9-4d27-b7f8-dc9248262dbe" />
+<img width="1600" height="962" alt="image" src="https://github.com/user-attachments/assets/11bc9f36-3c8c-4971-b66a-5325c56603cb" />
+<img width="1652" height="527" alt="Screenshot 2026-10-23 210001" src="https://github.com/user-attachments/assets/650c22b1-c5a4-41dd-aa54-515634308643" />
+<img width="1128" height="370" alt="Screenshot 2026-10-23 211924" src="https://github.com/user-attachments/assets/c587825d-98f1-45b7-9a37-2b5dcab47c26" />
 
-## CIRCUIT DIAGRAM
 
-*[ Insert the circuit diagram here ]*
 
-**Figure 1:** Circuit diagram for OCC and load test of D.C. shunt generator
+Calculation: 
 
-## SIMULATION USING VIRTUAL LAB (IIT ROORKEE)
+Open circuit characteristics
 
-Perform the open circuit test and the load test in the Virtual Lab (IIT Roorkee) D.C. machine experiment and paste screenshots showing the circuit, meter readings and plotted characteristics.
+<img width="1325" height="740" alt="Screenshot 2026-10-23 211906" src="https://github.com/user-attachments/assets/ec10cc4e-cfe5-4572-8c92-21d204d51346" />
 
-### A. Open circuit test – simulation
+<img width="1876" height="802" alt="Screenshot 2026-10-23 205930" src="https://github.com/user-attachments/assets/6d52c646-a320-4860-928e-b5dd00e31dc2" />
 
-*[ Paste the Virtual Lab OCC simulation screenshot here ]*
 
-**Figure 2:** Virtual Lab simulation – open circuit test
-
-### B. Load test – simulation
-
-*[ Paste the Virtual Lab load test simulation screenshot here ]*
-
-**Figure 3:** Virtual Lab simulation – load test
-
-## TABULATION
-
-### A. Open circuit test
-
-| S. No. | Field current If (A) | Generated EMF Eg (V) |
-|:---:|:---:|:---:|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
-| 6 | | |
-| 7 | | |
-| 8 | | |
-
-### B. Load test
-
-| S. No. | Load current IL (A) | Load voltage VL (V) |
-|:---:|:---:|:---:|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
-| 6 | | |
-| 7 | | |
-| 8 | | |
-
-## FORMULA
-
-**Eg = VL + Ia Ra**, where **Ia = IL + If**
-
-Eg – generated EMF (V); VL – terminal (load) voltage (V); Ia – armature current (A); IL – load current (A); If – field current (A); Ra – armature resistance (Ω).
-
-## MODEL GRAPH
-
-### A. Open circuit characteristics (If vs Eg)
-
-*[ Paste / draw the OCC graph here ]*
-
-**Figure 4:** Open circuit characteristics
-
-### B. Load characteristics (IL vs VL)
-
-*[ Paste / draw the load characteristics graph here ]*
-
-**Figure 5:** Load characteristics
-
-## RESULT
-
-Thus, the open circuit and load tests were conducted on the D.C. shunt generator, and its open circuit and load characteristics were obtained.
+  
+Load Characteristics:
+ 
+Result:
+The load test on separately excited generators and to obtain the characteristics was verified.
